@@ -27,8 +27,8 @@ function parseQuery ( query ) {
 //console.log(queryString);
 //console.log(params);
 	var garageId = params;//getQueryVariable("id");
-	var theURL = "http://ecp-autofirst.netsolutions.in/garages?id="+garageId;	
-	$.get("http://ecp-autofirst.netsolutions.in/garages?id="+garageId, function(response) {	
+	var theURL = "http://localhost/garages?id="+garageId;	
+	$.get("http://localhost/garages?id="+garageId, function(response) {	
 		 document.write(response);
 	});
 	//loadXMLDoc(theURL);
